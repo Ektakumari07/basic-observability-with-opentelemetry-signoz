@@ -8,9 +8,9 @@ Mid-scale tech teams facing production downtime and seeking their first real obs
 
 ## 🔧 Why Observability?
 
-Downtimes are inevitable. But flying blind when they happen? That’s unacceptable. Traditional logging doesn’t give you the full picture—**you need metrics, traces, and logs** that tell you not just *what* broke, but *why*.
+Downtime is an inevitable part of any production system. However, experiencing issues without the ability to understand their root cause is no longer acceptable. Traditional logging often falls short in providing complete visibility—what modern teams need are metrics, traces, and logs that not only reveal what failed, but also why.
 
-This tutorial shows how to set up **OpenTelemetry + SigNoz (self-hosted)** to make your app observable with minimal friction.
+This tutorial walks you through setting up observability using OpenTelemetry and a self-hosted instance of SigNoz, enabling you to monitor and debug your applications with clarity and confidence.
 
 ---
 
