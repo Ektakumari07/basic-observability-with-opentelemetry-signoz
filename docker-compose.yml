@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  flask-app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - OTEL_SERVICE_NAME=my-flask-app
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317
+    command: >
+      sh -c "opentelemetry-instrument --traces_exporter otlp
+             --exporter_otlp_endpoint http://localhost:4317 python app.py"
