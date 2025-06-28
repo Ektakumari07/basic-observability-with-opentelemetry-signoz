@@ -199,4 +199,20 @@ Setting up observability doesn’t need to be complex. With **OpenTelemetry** an
 
 Start small, go deep—**instrument the core services first**, expand to metrics and logs gradually, and you'll soon have a robust observability stack ready to catch issues before your users do.
 
+
+
+---
+
+## 📎 References & Credits
+
+This tutorial is built using:
+
+- [OpenTelemetry](https://opentelemetry.io/)
+- [SigNoz](https://signoz.io/)
+
+All trademarks, names, and logos are the property of their respective owners.
+
+[![Powered by SigNoz](https://img.shields.io/badge/Powered%20By-SigNoz-orange)](https://signoz.io/)
+
+
 ---
