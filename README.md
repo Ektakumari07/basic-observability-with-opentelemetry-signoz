@@ -1,9 +1,5 @@
 # 🚀 From Zero to Observable: Instrument Your App with OpenTelemetry & SigNoz (Self-Hosted)
 
-### 👤 Audience:
-
-Mid-scale tech teams facing production downtime and seeking their first real observability setup.
-
 ---
 
 ## 🔧 Why Observability?
